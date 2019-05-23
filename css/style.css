@@ -1,0 +1,106 @@
+*{
+	margin:0;
+}
+html {
+  font-size: 100%;
+}
+html, body{
+	margin: 0 auto;
+	width:100%;
+	height:100%;
+}
+.row{
+	margin-right: 0;
+	margin-left: 0;
+}
+.container{
+	width:1000px!important;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+.nav-header{
+	height: 7rem;
+    margin: 0 auto;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.nav-header li{
+	width:100%;
+	list-style: none;
+	flex-direction: row;
+	height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-header li a{
+	width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	font-size: 1.5rem;
+    font-weight: 400;
+	color: #157c08;
+	text-decoration: none;
+}
+.nav-header li a:focus{
+	background-color : #c2ddc2;
+	border-radius : 10px;
+	box-shadow : 2px 2px 9px #fff;
+}
+.cst-bloc-header{
+	background-color: #dee1dd;
+}
+
+/*ASIDE*/
+.cst-connect{
+    padding-top: 32px;
+}
+.cst-btn-connect{
+box-shadow: 5px 5px 12px grey;
+}
+
+/*ARTICLES*/
+.bande-art{
+	border-top: 2px #30813f solid;
+    height: 1px;
+    width: 100%;
+    margin-top: 50px;
+}
+.para-art{
+	text-align: justify;
+}
+.titre-art{
+	padding-top : 20px;
+}
+.image-art{
+	padding-top: 30px;
+	width:100%!important;
+}
+
+/*FOOTER*/
+.row-footer{
+	margin-top: 30px;
+	height: 60px;
+    background-color: #c3d7c0;
+}
+.para-footer{
+    margin: auto
+}
+
+/*FORM INSCRIPTION*/
+fieldset{
+	border-radius: 5px;
+    border: grey 1px solid;
+    padding: 20px!important;
+    box-shadow: 5px 5px 10px #cecdcd;
+}
