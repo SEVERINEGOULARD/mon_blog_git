@@ -3,6 +3,9 @@
 <?php session_start() ?>
 <?php ob_start(); ?> <!--Pour les redirections (header location) qui peuvent parfois poser probleme; mettre à la fin le ob_end_flush-->
 
+
+
+
 <!DOCTYPE html>
 <html>
 
